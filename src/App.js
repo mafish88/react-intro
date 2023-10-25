@@ -1,11 +1,12 @@
 
 import './App.css'
+import CoffeeComponent from './CoffeesComponent'
 import DateComponent from './DateComponents'
 
 function ChildComponent() {
   return (
     <div>
-      <h2> Hi im a child</h2>
+      <h2> MUCH  WOW</h2>
       <GrandChild />
     </div>
   )
@@ -33,7 +34,7 @@ function App() {
      
         <ChildComponent />
         <DateComponent />
-
+        <CoffeeComponent />
       </header>
     </div>
   );
